@@ -15,7 +15,7 @@ def guess_loop():
                 print("The number to guess is higher")
             else:
                 nom = input('Donner votre nom: ')
-                print("You just found the number, it was indeed", guess,"Bravo "nom)
+                print("You just found the number, it was indeed", guess,"Bravo",nom)
                 return
 
         except ValueError as err:
